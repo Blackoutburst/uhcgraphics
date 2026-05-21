@@ -1,0 +1,32 @@
+### Transpiled code ###
+out/
+
+### Executable ###
+*.exe
+unholyc
+test/unholyc
+test2/unholyc
+unholyc-graphics
+
+### Comp file ###
+dist/
+
+
+### Mac ###
+.DS_Store
+*.dSYM
+
+### Python ###
+__pycache__/
+.venv/
+*.spec
+
+### Build ###
+build/
+
+### Tests ###
+test/*.o
+test/uhc_test_runner
+test/transpiler/**/_compile.log
+test/transpiler/**/_run.log
+test/transpiler/**/_bin
